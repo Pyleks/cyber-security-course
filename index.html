@@ -1,23 +1,329 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Document</title>
 </head>
 <body>
-    <header>
-        
-    </header>
-    <section>
-        
-    </section>
-    <footer>
-        
-    </footer>
+
+<!-- Navbar -->
+<div class="my-header">
+    <nav class="my-navbar navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container ">
+            <a class="navbar-brand" href="#"><strong>Cyber Security</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+<!--                    <a class="nav-link" href="#">Login | Sign Up</a>-->
+                    <button type="button" class="btn btn-success">Login</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- /Navbar -->
+
+
+    <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="row">
+            <div class="col-12 mt-3">
+                <section class="text-center jumbotron">
+                    <!-- Callout Headline with paragraph -->
+                    <h1 class="jumbotron-header">Offensive Cyber Security Course</h1>
+                    <p class="jumbotron-paragraph">Experience the most powerful cyber security tools at your fingertips</p>
+                    <!--                <small class="jumbotron-small-text text-muted">Please bear in mind some  techniques should not be used on a live network without permission</small>-->
+                    <p>
+                        <button type="button" class="btn btn-success btn-lg mt-5 placement">Sign Up Today</button>
+                    </p>
+                    <div class="d-none d-sm-block">
+                    <p class="jumbotron-start-statement">Next Course Begins 1st of September</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cyber Security introduction statement -->
+    <div class="container statement-container">
+        <div class="container-fluid">
+            <section class="operating-system">
+                <div class="row">
+                    <div class="col-12 mt-4">
+                        <h2>Cyber Security Skills of 2019</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Text Paragraph  -->
+                    <div class="col-3 mt-3">
+                        <div class="d-none d-sm-block">
+                            <p>Cyber Security at all time high, with rise in cyber criminality globally.
+                                This have create a rising demand with a new workforce with the right tools.
+                                Acquire the skill-set of the 20th century.
+                            </p>
+                        </div>
+                        <div class="d-none d-sm-block">
+                            <!-- Sign up Button  -->
+                            <div class="col-10 offset-2">
+                                <button type="button" class="btn btn-primary">Sign Up Today!</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cyber Security Picture  -->
+                    <div class="col-6 offset-3">
+                        <div class="media">
+                            <img src="" class="img-fluid"
+                                 alt="shutterstock">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Introduction to toolbox and Headline  -->
+    <div class="container">
+        <div class="container-fluid">
+            <section class="toolbox">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <h2>Tool-Box</h2>
+                    </div>
+                </div>
+                <!-- Toolbox showcase -->
+                <div class="row">
+                    <div class="col-md-3 mt-4">
+                        <h4>NMAP</h4>
+                        <p>Cross platform and a powerful utility used to detect live hosts on
+                            the network, by scanning for open ports</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>SQL</h4>
+                        <p>SQL might be world famous, but it don't come without it's flaws, learn how to exploit
+                            it's weakness</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>METASPLOIT</h4>
+                        <p>Metasploit is a open source attack framework used to attacking systems. useful for
+                            penetration testing</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>ARMITAGE</h4>
+                        <p>Feeling intimated by text based systems? fear not Armitage is a visualization tool for
+                            Metasploit,
+                            giving you all the tools, and visuals to complete the task.</p>
+                    </div>
+                </div>
+                <!-- Toolbox showcase row 2 -->
+                <div class="row">
+                    <div class="col-md-3 mt-4">
+                        <h4>NETCAT</h4>
+                        <p>Swiss army knife of hacking, easily and dependable tool for reading and writing to network
+                            connections using TCP and UDP, as well very easy to automate through scripts.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>DEBUGGER</h4>
+                        <p>Debugg, learn their flaws, and exploit them to your will, this is one of the most complex
+                            but enjoyable processes in hacking,</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>PYTHON</h4>
+                        <p>What separate a good hacker from a bad one? programming knowledge!
+                            Learn the real tools for the trade.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>#BASH</h4>
+                        <p>Incredibly powerful, fast and effective combined with your hacking tools, you can automate
+                            any
+                            process through cunning scripts.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <!-- Introduction to Kali Linux -->
+    <div class="container">
+        <div class="container-fluid">
+            <section class="kali-linux mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Kali Linux</h2>
+                        <div class="mt-2">
+                            <h4>World's most powerful operating system for cyber security</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 offset-8 mt-5 d-none d-sm-block">
+                        <p>I am just going to type a ton of test text here because that is the only way
+                            I can really see what is happening, as well, if this actually turns into a proper
+                            paragaph and what not.</p>
+                        <p>I am just going to type a ton of test text here because that is the only way
+                            I can really see what is happening, as well, if this actually turns into a proper
+                            paragaph and what not.</p>
+                        <button type="button" class="btn btn-success mt-3">Sign Up Today!</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <!-- Introduction to Techniques  -->
+    <div class="container">
+        <div class="container-fluid">
+            <section class="Techniques">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <h2>Techniques</h2>
+                    </div>
+                </div>
+                <!-- Techniques showcase -->
+                <div class="row">
+                    <div class="col-md-3 mt-4">
+                        <h4>NETWORK SCAN</h4>
+                        <p>Cross platform and a powerful utility used to detect live hosts on
+                            the network, by scanning for open ports</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>PORT SCAN</h4>
+                        <p>Learn how to scan entire networks for open vulnerable ports ready to be exploited.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>EXPLOITS</h4>
+                        <p>See how we compose the right exploits for the right target, as well using ready made exploits
+                            made by others to make our job faster.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>GOOGLE HACKS</h4>
+                        <p>Google allow for some vicious search queries from mis configured databases to websites.</p>
+                    </div>
+                </div>
+                <!-- Techniques showcase row 2 -->
+                <div class="row">
+                    <div class="col-md-3 mt-4">
+                        <h4>ANTIVIRUS</h4>
+                        <p>Ever wondered how to bypass a modern antivirus without raising any alarms?
+                            learn all about injecting malicious code into innocent pdf files.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>AUTOMATION</h4>
+                        <p>Nothing is more boring then preforming the same task over and over,
+                            we show you how to automate most tasks to preform your bidding.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>DOCUMENTATION</h4>
+                        <p>No mather what you do, Documentation is key, when working with clients we want them to
+                            understand
+                            what we just did, and so do you.</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <h4>BACKDOOR</h4>
+                        <p>Congratulations, you just got access, now what? We will combine everything we learned to
+                            gain root access and make sure we can access it in the future.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <!-- Registration for the course -->
+    <div class="container">
+        <div class="container-fluid">
+            <section class="sign-up">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <h3>Register Today and receive a link to download Kali Linux for
+                            <u>FREE!</u>
+                        </h3>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <form>
+                            <div class="form-group">
+                                <label for="first-name"><strong>First Name</strong></label>
+                                <input type="text" class="form-control" id="first-name" aria-describedby="first-name"
+                                       placeholder="Enter First Name">
+
+                            </div>
+                            <div class="form-group mt-4">
+                                <label for="last-name"><strong>First Name</strong></label>
+                                <input type="text" class="form-control" id="last-name" aria-describedby="last-name"
+                                       placeholder="Enter Last Name">
+                            </div>
+                            <div class="form-group mt-4">
+                                <label for="email-address"><strong>Email address</strong></label>
+                                <input type="email" class="form-control" id="email-address"
+                                       aria-describedby="email-address"
+                                       placeholder="Enter email">
+                                <small id="email" class="form-text text-muted">We do do not share your email without
+                                    your
+                                    consent.
+                                </small>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-success mt-4" data-toggle="modal"
+                                        data-target="#Modal-Registration">Sign-Up
+                                </button>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal-Registration" tabindex="-1" role="dialog"
+         aria-labelledby="Modal-Registration-lLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="Modal-Registration-lLabel">Registration Complete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Congratulations! Please check your email for instructions.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

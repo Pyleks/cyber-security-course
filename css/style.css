@@ -1,0 +1,60 @@
+/*color*/
+
+/*Shapes*/
+.toolbox-shape {
+    width: 190px;
+    height: 190px;
+    border: 2px solid black;
+}
+/*Navbar*/
+
+.my-header .my-navbar {
+    background: black!important;
+}
+
+
+/*Callout*/
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/Head-Picture-Four.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: rgb(255, 255, 233);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.jumbotron-paragraph {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.jumbotron-start-statement {
+    color: white;
+    font-size: 19px;
+
+}

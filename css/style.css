@@ -34,6 +34,7 @@
 
 }
 
+
 /*Jumbotron*/
 
 .jumbotron {
@@ -43,7 +44,7 @@
 .jumbotron-header {
     color: rgb(255, 255, 233);
     font-weight: bold;
-    font-size: 50px;
+    font-size: 4.5rem;
 }
 
 .jumbotron-paragraph {
@@ -57,4 +58,53 @@
     color: white;
     font-size: 19px;
 
+}
+
+.border-style {
+    position: relative;
+    top: 0;
+    left: 35px;
+    right:0;
+    padding-left: 100px;
+    border-top: 10px solid rgba(0,0,0,0.1);
+    margin: 0;
+}
+
+/*Cyber Security Introduction statement*/
+
+.statement-container {
+    text-align: left;
+    align-items: center;
+    /*position: relative;*/
+    /*top:0;*/
+    /*left:10pc;*/
+    /*right:0;*/
+
+}
+
+
+/*Media queries*/
+
+@media (max-width: 767px) {
+    .jumbotron-header {
+        font-size: 30px;
+        padding-left: 100px;
+    }
+    .jumbotron-paragraph {
+        font-size: 20px;
+        padding-left: 100px;
+        width: 100%;
+    }
+    .jumbotron-line-style {
+        position: relative;
+        top: 0;
+        left:100px;
+        right:0;
+    }
+    .jumbotron-button {
+        position: relative;
+        top: 0;
+        left:45px;
+        right:0;
+    }
 }

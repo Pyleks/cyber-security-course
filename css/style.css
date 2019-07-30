@@ -4,8 +4,9 @@
 .toolbox-shape {
     width: 190px;
     height: 190px;
-    border: 2px solid black;
-}
+    border: 2px solid black;}
+
+
 /*Navbar*/
 
 .my-header .my-navbar {
@@ -72,17 +73,119 @@
 
 /*Cyber Security Introduction statement*/
 
-.statement-container {
-    text-align: left;
-    align-items: center;
-    /*position: relative;*/
-    /*top:0;*/
-    /*left:10pc;*/
-    /*right:0;*/
+.application-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.customized-cards {
+    border: 0;
+}
+
+.python-picture-placement {
+    position: relative;
+    top: 10px;
+    left: 0;
+    right: 0;
 
 }
 
+.meta-picture-placement {
+    position: relative;
+    top: 8px;
+    left: 0;
+    right: 0;
+}
 
+.tool-box-line-style {
+    margin: 0;
+    width: 15px;
+    padding-right: 55px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    right: 0;
+}
+
+.techniques-line-style {
+    margin: 0;
+    width: 15px;
+    padding-right: 78px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    right: 0;
+}
+
+
+.toolbox-container {
+    background-color: #044517 !important;
+    padding-bottom: 70px;
+}
+
+.techniques-container {
+    background-color: #044517;
+    padding-bottom: 70px;
+}
+
+.kali-linux-container {
+    padding-bottom: 50px;
+}
+.sign-up-container {
+    padding-bottom: 30px;
+}
+.footer-container {
+    width: 100%;
+    background-color: #21262a;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 1.1em;
+}
+
+.inline-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-color {
+    background-color:white;!
+    color: black;
+}
+.card-header-color {
+    background-color:#bee1b4;
+    color: black;
+    font-size: 1.7em;
+}
+
+.far {
+    font-weight: 900;
+}
+
+.container-fluid h2 {
+    color: white;
+}
+
+.kali-headline {
+    color: black !important;
+}
+
+.hr-light {
+    border-top: 1px solid #5d5c57;
+}
+
+.social-media-custom {
+    color: white !important;
+    margin-right: 5px;
+    padding-top: 10px;
+}
+/*.copyright-placement{*/
+/*    padding-left: 500px;*/
+/*}*/
 /*Media queries*/
 
 @media (max-width: 767px) {
@@ -106,5 +209,11 @@
         top: 0;
         left:45px;
         right:0;
+    }
+    .customized-cards {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 20px;
     }
 }

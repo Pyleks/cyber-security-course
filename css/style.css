@@ -1,22 +1,11 @@
-/*color*/
-
-/*Shapes*/
-.toolbox-shape {
-    width: 190px;
-    height: 190px;
-    border: 2px solid black;}
-
-
-/*Navbar*/
-
+/*Navigation bar Styling*/
 .my-header .my-navbar {
     background: black!important;
 }
+/*/Navigation bar Styling*/
 
-
-/*Callout*/
-
-.callout-container {
+/*Hero-Callout*/
+.hero-callout-container {
     height: 100vh;
     background: url('../images/Head-Picture-Four.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -34,20 +23,17 @@
     padding-left: 50px;
 
 }
+/*/Hero-Callout*/
 
-
-/*Jumbotron*/
-
+/*Jumbotron-callout-group*/
 .jumbotron {
     background-color: transparent;
 }
-
 .jumbotron-header {
     color: rgb(255, 255, 233);
     font-weight: bold;
     font-size: 4.5rem;
 }
-
 .jumbotron-paragraph {
     color: white;
     font-size: 20px;
@@ -60,8 +46,10 @@
     font-size: 19px;
 
 }
+/*/Jumbotron-callout-group*/
 
-.border-style {
+/*Hero-border-line*/
+.line-border-style {
     position: relative;
     top: 0;
     left: 35px;
@@ -70,18 +58,13 @@
     border-top: 10px solid rgba(0,0,0,0.1);
     margin: 0;
 }
+/*/Hero-border-line*/
 
-/*Cyber Security Introduction statement*/
-
+/*Application List*/
 .application-container {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.customized-cards {
-    border: 0;
-}
-
 .python-picture-placement {
     position: relative;
     top: 10px;
@@ -89,14 +72,42 @@
     right: 0;
 
 }
-
 .meta-picture-placement {
     position: relative;
     top: 8px;
     left: 0;
     right: 0;
 }
+/*/Application List*/
 
+/*Global Card Styling*/
+.card-header-color {
+    background-color:#bee1b4;
+    color: black;
+    font-size: 1.7em;
+    font-weight: 900;
+}
+.card-color {
+    background-color:white;
+    color: black;
+}
+.card-text-color {
+    color: black;
+    margin-bottom: 0;
+}
+.customized-cards {
+    border: 0;
+}
+/*/Global Card Styling*/
+
+/*Tools-box section style*/
+.tool-box-color {
+    color: white;
+}
+.toolbox-container {
+    background-color: #044517 !important;
+    padding-bottom: 70px;
+}
 .tool-box-line-style {
     margin: 0;
     width: 15px;
@@ -106,7 +117,25 @@
     left: -10px;
     right: 0;
 }
+/*Tools-box section style*/
 
+/*Kali Linux Container*/
+.kali-headline {
+    color: black !important;
+}
+.kali-linux-container {
+    padding-bottom: 50px;
+}
+/*/Kali Linux Container*/
+
+/*Techniques Container*/
+.techniques-headline-color {
+    color: white;
+}
+.techniques-container {
+    background-color: #044517;
+    padding-bottom: 70px;
+}
 .techniques-line-style {
     margin: 0;
     width: 15px;
@@ -116,24 +145,15 @@
     left: -10px;
     right: 0;
 }
+/*/Techniques Container*/
 
-
-.toolbox-container {
-    background-color: #044517 !important;
-    padding-bottom: 70px;
-}
-
-.techniques-container {
-    background-color: #044517;
-    padding-bottom: 70px;
-}
-
-.kali-linux-container {
-    padding-bottom: 50px;
-}
+/*Sign-up Container*/
 .sign-up-container {
     padding-bottom: 30px;
 }
+/*/Sign-up Container*/
+
+/*Footer Container*/
 .footer-container {
     width: 100%;
     background-color: #21262a;
@@ -142,53 +162,24 @@
     color: white;
     font-size: 1.1em;
 }
-
-.inline-container {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.card-text {
-    color: black;
-}
-
-.card-color {
-    background-color:white;!
-    color: black;
-}
-.card-header-color {
-    background-color:#bee1b4;
-    color: black;
-    font-size: 1.7em;
-    font-weight: 900;
-}
-
-.far {
-    font-weight: 900;
-}
-
-.container-fluid h2 {
-    color: white;
-}
-
-.kali-headline {
-    color: black !important;
-}
-
 .hr-light {
     border-top: 1px solid #5d5c57;
 }
+/*/Footer Container*/
 
+/*Social Media Icons*/
 .social-media-custom {
     color: white !important;
     margin-right: 5px;
     padding-top: 10px;
 }
-/*.copyright-placement{*/
-/*    padding-left: 500px;*/
-/*}*/
-/*Media queries*/
+.copyright-container {
+    font-weight: 400;
+    padding-left: 695px;
+}
+/*/Social Media Icons*/
 
+/*Media Styling*/
 @media (min-width: 300px) and (max-width: 320px) {
     .jumbotron {
         margin-top: 30%;
@@ -234,6 +225,17 @@
         margin: 0;
     }
 
+    .copyright-container {
+        text-align: justify;
+        display:inline-block;
+        font-weight: 400;
+        padding-left: 0;
+        font-size: 70%;
+    }
+    .social-media-container {
+        text-align: center;
+    }
+
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
@@ -270,6 +272,15 @@
     }
     .custom-paragraph {
         margin: 0;
+    }
+    .copyright-container {
+        text-align: justify;
+        display:inline-block;
+        font-weight: 400;
+        padding-left: 0;
+    }
+    .social-media-container {
+        text-align: center;
     }
 }
 
@@ -317,9 +328,17 @@
     .custom-paragraph {
         margin: 0;
     }
+
+    .copyright-container {
+        text-align: justify;
+        display:inline-block;
+        font-weight: 400;
+        padding-left: 0;
+    }
+    .social-media-container {
+        text-align: center;
+    }
 }
-
-
 
 @media (min-width: 376px) and (max-width: 411px) {
     .text-center {
@@ -367,6 +386,16 @@
     }
     .footer-container small {
         margin-right: 10%;
+    }
+
+    .copyright-container {
+        text-align: justify;
+        display:inline-block;
+        font-weight: 400;
+        padding-left: 15px;
+    }
+    .social-media-container {
+        text-align: center;
     }
 }
 
@@ -419,6 +448,15 @@
     .footer-container small {
         margin-right: 12%;
 
+    }
+    .copyright-container {
+        text-align: justify;
+        display:inline-block;
+        font-weight: 400;
+        padding-left: 20px;
+    }
+    .social-media-container {
+        text-align: center;
     }
 }
 
@@ -489,7 +527,7 @@
         left: 215px;
         right: 0;
     }
-    .footer-container small {
+    .email-input-container {
         margin-right: 50%;
         text-align: center;
         position: relative;
@@ -501,4 +539,105 @@
     .footer-container input {
         width: -50% !important;
     }
+    .input-container {
+        width: 70%;
+        position: relative;
+        top: 0;
+        left: 100px;
+        right: 0;
+    }
+    .copyright-container {
+        font-weight: 400;
+        padding-left: 275px;
+    }
+    /*.social-media-container {*/
+    /*    text-align: center;*/
+    /*}*/
 }
+
+@media (min-width: 1020px) and (max-width: 1024px) {
+    .text-center{
+        position: relative;
+        top: 0;
+        left: 400px;
+        right: 0;
+    }
+
+    .jumbotron-header {
+        font-size: 80px;
+        padding-left: 100px;
+    }
+    .jumbotron-paragraph {
+        font-size: 35px;
+        padding-left: 100px;
+        width: 100%;
+    }
+    .jumbotron-line-style {
+        position: relative;
+        top: 0;
+        left: 150px;
+        right: 0;
+        padding-left: 160px;
+    }
+    .jumbotron-button {
+        position: relative;
+        top: -40px;
+        left: 50px;
+        right: 0;
+        font-size: 1.1rem;
+    }
+    .jumbotron-start-statement {
+        position: relative;
+        top: -20px;
+        left: 50px;
+        right: 0;
+    }
+    .meta-picture-placement {
+        width: 85%;
+        height: 85%;
+        position: relative;
+        top: 3px;
+        left: -150px;
+        right: 0;
+    }
+    .python-picture-placement {
+        width: 85%;
+        height: 85%;
+        position: relative;
+        top: 3px;
+        left: -150px;
+        right: 0;
+    }
+
+    .custom-paragraph {
+        margin: 0;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .footer-container h6 {
+        margin-right: 50%;
+        position: relative;
+        top: 0;
+        left: 215px;
+        right: 0;
+    }
+    .email-input-container {
+        margin-right: 50%;
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 190px;
+        right: 0;
+    }
+
+    .footer-container input {
+        width: -50% !important;
+    }
+    .input-container {
+        width: 70%;
+        position: relative;
+        top: 0;
+        left: 125px;
+        right: 0;
+    }

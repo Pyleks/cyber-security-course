@@ -11,12 +11,11 @@
           integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Document</title>
+    <title>Cyber Security</title>
 </head>
 <body>
-
 <!-- Navbar -->
-<section class="header">
+<section class="navigation-bar">
     <div class="my-header">
         <nav class="my-navbar navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid ">
@@ -43,31 +42,37 @@
 </section>
 <!-- /Navbar -->
 
-<!-- Callout -->
-<div class="container-fluid callout-container">
-    <div class="row">
-        <div class="col-md-7 mt-3">
-            <section class="text-center jumbotron">
-                <!-- Callout Headline with paragraph -->
-                <h1 class="jumbotron-header">Offensive Cyber Security Course</h1>
-                <hr class="jumbotron-line-style border-3 border-white my-4 ml-0 text-left w-25 border-style"
-                    role="presentation">
-                <p class="jumbotron-paragraph">Experience the most powerful cyber security tools at your
-                    fingertips</p>
-                <p>
-                <div class="row">
-                    <div class="col-12">
-                        <button type="button" class="btn btn-success btn-lg mt-5 jumbotron-button">Sign Up Today
-                        </button>
-                </p>
-                <div class="d-none d-sm-block">
-                    <p class="jumbotron-start-statement">Next Course Begins 1st of September</p>
-                </div>
-            </section>
+
+<!-- Hero-callout -->
+<section class="hero-callout">
+    <div class="container-fluid hero-callout-container">
+        <div class="row">
+            <div class="col-md-7 mt-3">
+                <section class="text-center jumbotron">
+                    <!-- Callout Headline with paragraph -->
+                    <h1 class="jumbotron-header">Offensive Cyber Security Course</h1>
+                    <hr class="jumbotron-line-style border-3 border-white my-4 ml-0 text-left w-25 line-border-style"
+                        role="presentation">
+                    <p class="jumbotron-paragraph">Experience the most powerful cyber security tools at your
+                        fingertips</p>
+                    <p>
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-success btn-lg mt-5 jumbotron-button"
+                                    data-toggle="modal"
+                                    data-target="#Modal-sign-up">Sign Up Today
+                            </button>
+                    </p>
+                    <div class="d-none d-sm-block">
+                        <p class="jumbotron-start-statement">Next Course Begins 1st of September</p>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
-</div>
-<!-- /Callout -->
+</section>
+<!-- /Hero-callout -->
+
 
 <!-- Cyber Security Application logos -->
 <section class="application-logos">
@@ -75,25 +80,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <div class="d-none sm md">
-                        <div class="card customized-cards" style="width: 15rem;">
-                            <img src="/images/logos/bash-logo.jpg"
+                    <!--                    <div class="d-none d-sm-block">-->
+                    <div class="d-none d-xl-block ">
+                        <div class="card customized-cards ba-card-size">
+                            <img src="images/logos/bash-logo.jpg"
                                  class="card-img-top bash-picture-placement"
                                  alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="d-none sm md">
-                        <div class="card customized-cards" style="width: 19rem;">
-                            <img src="/images/logos/python-logo-master-v3-TM.png"
+                    <div class="d-none d-sm-block">
+                        <div class="card customized-cards py-card-size">
+                            <img src="images/logos/python-logo-master-v3-TM.png"
                                  class="card-img-top python-picture-placement"
                                  alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card customized-cards" style="width: 19rem;">
+                    <div class="card customized-cards meta-card-size">
                         <img src="images/logos/metasploit-logo.png"
                              class="card-img-top meta-picture-placement"
                              alt="...">
@@ -105,53 +111,57 @@
 </section>
 <!-- /Cyber Security Application logos -->
 
+
 <!-- Introduction to toolbox and Headline  -->
 <section class="toolbox">
     <div class="container-fluid toolbox-container">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h2 class="fas fa-toolbox fa-2x"> Tool-Box</h2>
-                    <hr class="tool-box-line-style border-1 border-white my-4 ml-2 text-left border-style"
+                    <h2 class="fas fa-toolbox fa-2x tool-box-color"> Tool-Box</h2>
+                    <hr class="tool-box-line-style border-1 border-white my-4 ml-2 text-left line-border-style"
                         role="presentation">
                 </div>
             </div>
             <!-- Toolbox showcase -->
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header far fa-eye fa-2x card-header-color"> Nmap </h4>
                         <div class="card-body">
-                            <p class="card-text">Cross platform and a powerful utility used to detect live hosts on
+                            <p class="card-text-color">Cross platform and a powerful utility used to detect live hosts
+                                on
                                 the network, by scanning for open ports.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header far fa-folder-open fa-2x card-header-color"> SQL</h4>
                         <div class="card-body">
-                            <p class="card-text">SQL might be world famous, but it don't come without it's flaws, learn
+                            <p class="card-text-color">SQL might be world famous, but it don't come without it's flaws,
+                                learn
                                 how to exploit
                                 it's weakness.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header fas fa-exclamation-circle fa-2x card-header-color"> Metasploit</h4>
                         <div class="card-body">
-                            <p class="card-text">Metasploit is a open source attack framework used to attacking systems.
+                            <p class="card-text-color">Metasploit is a open source attack framework used to attacking
+                                systems.
                                 useful for
                                 penetration testing.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header fas fa-desktop fa-2x card-header-color"> Armitage</h4>
                         <div class="card-body">
-                            <p class="card-text">Armitage is a visualization tool for
+                            <p class="card-text-color">Armitage is a visualization tool for
                                 Metasploit, giving you all the tools, and visuals to complete the task.</p>
                         </div>
                     </div>
@@ -160,11 +170,11 @@
 
             <!-- Toolbox showcase second row -->
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header fas fa-cat fa-2x card-header-color"> NetCat</h4>
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text-color">
                                 Swiss army knife of hacking, easily and dependable tool for reading and writing to
                                 network
                                 connections.
@@ -172,36 +182,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header fas fa-bomb fa-2x card-header-color"> Debugger</h4>
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text-color">
                                 Debug, learn their flaws, and exploit them to your will, this is one of the most
                                 enjoyable processes in hacking.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6  mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6  mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header fas fa-magic fa-2x card-header-color"> Python</h4>
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text-color">
                                 What separate a good hacker from a bad one? programming knowledge!
                                 Learn the tools of the trade.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
                         <h4 class="card-header far fa-file-code fa-2x card-header-color"> BASH</h4>
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text-color">
                                 Incredibly powerful, fast and effective combined with your hacking tools, you can
-                                automate
-                                any process.
+                                automate any process.
                             </p>
                         </div>
                     </div>
@@ -209,6 +218,7 @@
             </div>
 </section>
 <!-- /Introduction to toolbox and Headline  -->
+
 
 <!-- Introduction to Kali Linux -->
 <section class="kali-linux mt-5">
@@ -222,24 +232,29 @@
                         <h4>World's most powerful operating system for cyber security</h4>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="d-none sm md">
+                <div class="col-sm-4 d-none d-xl-block">
+                    <div class="col-md">
                         <div class="card customized-cards" style="width: 40rem;">
                             <img src="../Cyber Security Course/images/logos/kali-linux.jpg"
-                                 class="card-img-top bash-picture-placement"
+                                 class="card-img-top kali-picture-placement"
                                  alt="...">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 offset-4 mt-5">
+                <div class="col-md-4 offset-4 mt-5 custom-paragraph">
                     <div class="kali-paragraph">
-                        <p>I am just going to type a ton of test text here because that is the only way
-                            I can really see what is happening, as well, if this actually turns into a proper
-                            paragraph and what not.</p>
-                        <p>I am just going to type a ton of test text here because that is the only way
-                            I can really see what is happening, as well, if this actually turns into a proper
-                            paragraph and what not.</p>
-                        <button type="button" class="btn btn-success mt-3">Sign Up Today!</button>
+                        <p class="inline-block">With over 600 pre-installed cyber security tools putting Kali linux well
+                            above competition
+                            including tools such as Burp suite, John the Ripper, Wireshark, Hydra and countless more for
+                            a wide range
+                            of purposes.</p>
+                        <p class="inline-block">So what is it? A Linux distribution packed full of security tools,
+                            available to anyone willing
+                            to pick up the art of ethical hacking. Developed by Mati Aharoni and Devon Kearns of
+                            Offensive Security.
+                        </p>
+                        <a class="btn btn-success mt-3" href="https://en.wikipedia.org/wiki/Kali_Linux" target="_blank"
+                           role="button">Learn More</a>
                     </div>
                 </div>
 
@@ -254,49 +269,52 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h2 class="fas fa-toolbox fa-2x"> Techniques</h2>
-                    <hr class="techniques-line-style border-1 border-white my-4 ml-2 text-left border-style"
+                    <h2 class="fas fa-toolbox fa-2x techniques-headline-color"> Techniques</h2>
+                    <hr class="techniques-line-style border-1 border-white my-4 ml-2 text-left line-border-style"
                         role="presentation">
                 </div>
             </div>
             <!-- Toolbox showcase -->
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header far fa-eye fa-2x card-header-color"> Network Scan</h4>
+                        <h4 class="card-header fas fa-crosshairs fa-2x card-header-color"> Network Scan</h4>
                         <div class="card-body">
-                            <p class="card-text">Scan entire networks for live hosts from computers to servers,
+                            <p class="card-text-color">Scan entire networks for live hosts from computers to servers,
                                 find your targets in only a few seconds.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header far fa-folder-open fa-2x card-header-color"> Port Scan</h4>
+                        <h4 class="card-header far fa-eye fa-2x card-header-color"> Port Scan</h4>
                         <div class="card-body">
                             <!--                            <h5 class="card-title">Secondary card title</h5>-->
-                            <p class="card-text">Once you got a list of live hosts, you want to find the most unsecured
+                            <p class="card-text-color">Once you got a list of live hosts, you want to find the most
+                                unsecured
                                 machines
                                 through port-scanning.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header fas fa-exclamation-circle fa-2x card-header-color"> Exploits</h4>
+                        <h4 class="card-header fas fa-cog fa-2x card-header-color"> Exploits</h4>
                         <div class="card-body">
                             <!--                            <h5 class="card-title">Secondary card title</h5>-->
-                            <p class="card-text">Learn to compose the right exploits for the right targets, and utilize
+                            <p class="card-text-color">Learn to compose the right exploits for the right targets, and
+                                utilize
                                 the vast amount of pre made ones.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header fas fa-desktop fa-2x card-header-color"> Google Hacks</h4>
+                        <h4 class="card-header fab fa-connectdevelop fa-2x card-header-color"> Google Hacks</h4>
                         <div class="card-body">
                             <!--                            <h5 class="card-title">Secondary card title</h5>-->
-                            <p class="card-text">Google allow for verbose searches, to help you uncover everything from
+                            <p class="card-text-color">Google allow for verbose searches, to help you uncover everything
+                                from
                                 unsafe websites to databases.</p>
                         </div>
                     </div>
@@ -305,20 +323,21 @@
 
             <!-- Toolbox showcase second row -->
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header fas fa-cat fa-2x card-header-color"> Antivirus</h4>
+                        <h4 class="card-header fas fa-check fa-2x card-header-color"> Antivirus</h4>
                         <div class="card-body">
-                            <p class="card-text">See how we implement vicious code inside innocent pdf files to give us
+                            <p class="card-text-color">See how we implement vicious code inside innocent pdf files to
+                                give us
                                 instant access.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header fas fa-bomb fa-2x card-header-color"> Automation</h4>
+                        <h4 class="card-header far fa-file-archive fa-2x card-header-color"> Automation</h4>
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text-color">
                                 Re-occurring tasks are designed to be automated, learn how to automate network-scan and
                                 port scan.
 
@@ -326,20 +345,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6  mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6  mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header fas fa-magic fa-2x card-header-color"> Documentation</h4>
+                        <h4 class="card-header fas fa-pencil-alt fa-2x card-header-color"> Documentation</h4>
                         <div class="card-body">
-                            <p class="card-text">Documentation is a must! Provide your clients with quality
+                            <p class="card-text-color">Documentation is a must! Provide your clients with quality
                                 information when the job is done.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
+                <div class="col-xl-3 col-lg-6 col-md-6 mt-4">
                     <div class="card text-white mb-3 card-color">
-                        <h4 class="card-header far fa-file-code fa-2x card-header-color"> Backdoor</h4>
+                        <h4 class="card-header fab fa-angellist fa-2x card-header-color"> Backdoor</h4>
                         <div class="card-body">
-                            <p class="card-text">Don't forget the leave a backdoor when leaving, this will help you
+                            <p class="card-text-color">Don't forget the leave a backdoor when leaving, this will help
+                                you
                                 re-visit
                                 when necessary.</p>
                         </div>
@@ -362,13 +382,12 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-4">
+                <div class="col-md-4 register-form-placement">
                     <form>
                         <div class="form-group">
                             <label for="first-name"><strong>First Name</strong></label>
                             <input type="text" class="form-control" id="first-name" aria-describedby="first-name"
                                    placeholder="Enter First Name">
-
                         </div>
                         <div class="form-group mt-4">
                             <label for="last-name"><strong>Last Name</strong></label>
@@ -388,14 +407,11 @@
                             <button type="button" class="btn btn-success mt-4" data-toggle="modal"
                                     data-target="#Modal-Registration">Sign-Up
                             </button>
-
                         </div>
                     </form>
-
                 </div>
             </div>
 </section>
-
 <!-- /Registration for the course -->
 
 <section class="footer">
@@ -406,8 +422,8 @@
                     <hr class="hr-light">
                     <h6 class="text-white text-center pb-4 mb-3">Subscribe to our weekly Newsletter</h6>
                     <div class="row justify-content-center pb-4 mb-3">
-                        <div class="col-xl-6 col-lg-7 col-md-9">
-                            <div class="input-group">
+                        <div class="col-xl-6 col-lg-12 col-md-">
+                            <div class="input-group input-container">
                                 <input class="form-control" type="email" name="EMAIL" placeholder="Email address">
                                 <div class="input-group-append">
                                     <button class="btn btn-success" type="submit" data-toggle="modal"
@@ -415,15 +431,20 @@
                                     </button>
                                 </div>
                             </div>
-                            <small class="form-text text-white opacity-50 pt-1 text-center">Enter your email address to
-                                receive latest Cyber Security news
-                            </small>
+                            <div class="container">
+                                <small class="email-input-container form-text text-white opacity-50 pt-1 text-center">
+                                    Enter your email address
+                                    to
+                                    receive latest Cyber Security news
+                                </small>
+                            </div>
+
                         </div>
                     </div>
                     <hr class="hr-light">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12">
+                            <div class="social-media-container col-12">
                                 <!--                        <div class="order-2">-->
                                 <a class="social-media-custom fab fa-facebook-square fa-2x" target="_blank"
                                    href="https://www.facebook.com"></a>
@@ -431,6 +452,9 @@
                                    href="https://www.linkedin.com/uas/login"></a>
                                 <a class="social-media-custom fab fa-youtube fa-2x" target="_blank"
                                    href="https://www.youtube.com/"></a>
+                                <small class="copyright-container form-text text-white opacity-50 pt-1 text-right far fa-copyright">
+                                    All rights belong to Aleksander Andersen
+                                </small>
                             </div>
                         </div>
                     </div>
@@ -468,6 +492,7 @@
 </section>
 <!-- /Modal-Registration-feedback -->
 
+
 <!-- Modal newsletter registration -->
 <section class="modal-newsletter-registration">
     <div class="modal fade" id="Modal-newsletter-registration" tabindex="-1" role="dialog"
@@ -493,38 +518,81 @@
 </section>
 <!-- /Modal newsletter registration -->
 
-<!-- Modal newsletter registration -->
-<section class="modal-header-registration">
+
+<!-- Modal Login -->
+<section class="modal-login">
     <div class="modal fade" id="Modal-header-registration" tabindex="-1" role="dialog"
          aria-labelledby="Modal-Registration-Label-three"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
-                    <h5 class="modal-title" id="Modal-Registration-Label-three">Register</h5>
+                    <h5 class="modal-title" id="Modal-Registration-Label-three">Login</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="md-form mb-5">
-                        <p>Username</p>
+                        <p class="modal-login-username">Username</p>
                         <input type="text" id="orangeForm-name" class="form-control validate" placeholder="Username">
                         <div class="md-form mb-5">
-                            <p>Password</p>
+                            <p class="modal-login-password">Password</p>
                             <input type="password" id="orangeForm-name" class="form-control validate"
                                    placeholder="Password">
 
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Login</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 </section>
-<!-- /Modal newsletter registration -->
+<!-- /Modal Login -->
+
+
+<!-- Modal Sign-Up -->
+<section class="modal-sign-up">
+    <div class="modal fade" id="Modal-sign-up" tabindex="-1" role="dialog"
+         aria-labelledby="Modal-Registration-Label-four"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h5 class="modal-title" id="Modal-Registration-Label-four">Registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="md-form mb-5">
+                        <p class="modal-create-username">Create Username</p>
+                        <input type="text" id="orangeForm-name" class="form-control validate" placeholder="Username">
+                        <div class="md-form mb-5">
+
+                            <p class="modal-fill-name">Fullname</p>
+                            <input type="password" id="orangeForm-name" class="form-control validate required"
+                                   placeholder="Fullname">
+
+                            <div class="md-form mb-5">
+                                <p class="modal-create-password">Password</p>
+                                <input type="password" id="orangeForm-name" class="form-control validate"
+                                       placeholder="Password">
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+<!-- /Modal Sign-Up -->
 
 
 </div>

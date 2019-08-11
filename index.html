@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,8 +26,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><strong>Contact Us</strong><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Tool-box"><strong>Tool-Box</strong><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Careers"><strong>Careers</strong><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Techniques"><strong>Techniques </strong><span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <!--                    <a class="nav-link" href="#">Login | Sign Up</a>-->
@@ -82,7 +92,7 @@
                 <div class="col-sm">
                     <!--                    <div class="d-none d-sm-block">-->
                     <div class="d-none d-xl-block ">
-                        <div class="card customized-cards ba-card-size">
+                        <div class="card customized-cards" style="width: 15rem;">
                             <img src="images/logos/bash-logo.jpg"
                                  class="card-img-top bash-picture-placement"
                                  alt="...">
@@ -91,7 +101,7 @@
                 </div>
                 <div class="col-sm">
                     <div class="d-none d-sm-block">
-                        <div class="card customized-cards py-card-size">
+                        <div class="card customized-cards" style="width: 19rem;">
                             <img src="images/logos/python-logo-master-v3-TM.png"
                                  class="card-img-top python-picture-placement"
                                  alt="...">
@@ -99,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card customized-cards meta-card-size">
+                    <div class="card customized-cards" style="width: 19rem;">
                         <img src="images/logos/metasploit-logo.png"
                              class="card-img-top meta-picture-placement"
                              alt="...">
@@ -118,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h2 class="fas fa-toolbox fa-2x tool-box-color"> Tool-Box</h2>
+                    <h2 class="fas fa-toolbox fa-2x tool-box-color" id="Tool-box"> Tool-Box</h2>
                     <hr class="tool-box-line-style border-1 border-white my-4 ml-2 text-left line-border-style"
                         role="presentation">
                 </div>
@@ -220,45 +230,26 @@
 <!-- /Introduction to toolbox and Headline  -->
 
 
-<!-- Introduction to Kali Linux -->
-<section class="kali-linux mt-5">
-    <div class="container-fluid kali-linux-container">
-        <div class="container kali-picture-container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="kali-headline">Kali Linux</h2>
+<!-- Introduction to Cyber Security Jobs -->
+<section class="cyber-security-video">
+    <div class="container-fluid cyber-security-video-container">
+        <div class="container">
+            <div class="content-placement">
+                <div class="col-sm-12">
+                    <h2 class="cyber-security-headline" id="Careers">Careers in Cyber Security <u>2019</u></h2>
                     <div class="mt-2">
-                        <h4>World's most powerful operating system for cyber security</h4>
                     </div>
                 </div>
-                <div class="col-sm-4 d-none d-xl-block">
-                    <div class="col-md">
-                        <div class="card customized-cards" style="width: 40rem;">
-                            <img src="../Cyber Security Course/images/logos/kali-linux.jpg"
-                                 class="card-img-top kali-picture-placement"
-                                 alt="...">
-                        </div>
+                <div class="col">
+                    <div class="video-sizing">
+                        <iframe width="760" height="500" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="col-md-4 offset-4 mt-5 custom-paragraph">
-                    <div class="kali-paragraph">
-                        <p class="inline-block">With over 600 pre-installed cyber security tools putting Kali linux well
-                            above competition
-                            including tools such as Burp suite, John the Ripper, Wireshark, Hydra and countless more for
-                            a wide range
-                            of purposes.</p>
-                        <p class="inline-block">So what is it? A Linux distribution packed full of security tools,
-                            available to anyone willing
-                            to pick up the art of ethical hacking. Developed by Mati Aharoni and Devon Kearns of
-                            Offensive Security.
-                        </p>
-                        <a class="btn btn-success mt-3" href="https://en.wikipedia.org/wiki/Kali_Linux" target="_blank"
-                           role="button">Learn More</a>
-                    </div>
-                </div>
-
             </div>
+        </div>
+
 </section>
 <!-- /Introduction to Kali Linux -->
 
@@ -269,7 +260,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h2 class="fas fa-toolbox fa-2x techniques-headline-color"> Techniques</h2>
+                    <h2 class="fas fa-toolbox fa-2x techniques-headline-color" id="Techniques"> Techniques</h2>
                     <hr class="techniques-line-style border-1 border-white my-4 ml-2 text-left line-border-style"
                         role="presentation">
                 </div>
@@ -376,43 +367,57 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h3>Register Today and receive a link to download Kali Linux for
-                        <u>FREE!</u>
+                    <h3 class="register-headline">Register Today and receive access to our hacking environment!
                     </h3>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-4 register-form-placement">
-                    <form>
-                        <div class="form-group">
-                            <label for="first-name"><strong>First Name</strong></label>
-                            <input type="text" class="form-control" id="first-name" aria-describedby="first-name"
-                                   placeholder="Enter First Name">
-                        </div>
-                        <div class="form-group mt-4">
-                            <label for="last-name"><strong>Last Name</strong></label>
-                            <input type="text" class="form-control" id="last-name" aria-describedby="last-name"
-                                   placeholder="Enter Last Name">
-                        </div>
-                        <div class="form-group mt-4">
-                            <label for="email-address"><strong>Email address</strong></label>
-                            <input type="email" class="form-control" id="email-address"
-                                   aria-describedby="email-address"
-                                   placeholder="Enter email">
-                            <small id="email" class="form-text text-muted">We do do not share your email without
-                                your
-                                consent.
-                            </small>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-success mt-4" data-toggle="modal"
-                                    data-target="#Modal-Registration">Sign-Up
-                            </button>
-                        </div>
-                    </form>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label class="input-text" for="inputFname"><strong>First Name</strong></label>
+                        <input type="text" class="form-control" id="inputFname" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="input-text" for="inputLname"><strong>Last Name</strong></label>
+                        <input type="text" class="form-control" id="inputLname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label class="input-text" for="inputEmail"><strong>Email</strong></label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
                 </div>
-            </div>
+                <button type="submit" class="btn btn-success">Register</button>
+            </form>
 </section>
 <!-- /Registration for the course -->
+
+<section class="contact-us">
+    <div class="container-fluid contact-us-container">
+        <div class="container">
+            <div class="col-12">
+                <h3 class="contact-headline">DON'T BE SHY</h3>
+            </div>
+            <div class="row marker-center">
+                <div class="col-md-4">
+                    <i class="contact-icons fas fa-map-marker-alt fa-3x"></i>
+                    <h4>ADDRESS</h4>
+                    <p>27 Hearth Hub Road Dublin 9</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="contact-icons fas fa-phone fa-3x"></i>
+                    <h4>PHONE</h4>
+                    <p>+353 83 166 4163 </p>
+                </div>
+                <div class="col-md-4">
+                    <i class=" contact-icons fas fa-comment-dots fa-3x"></i>
+                    <h4>EMAIL</h4>
+                    <p>info@cybersecurity.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 
 <section class="footer">
     <div class="container-fluid footer-container">
@@ -605,5 +610,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
 </html>

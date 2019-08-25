@@ -23,6 +23,10 @@ as well limiting the word count to keep the topic relevant and interesting.</p>
 <li>Bootstrap (4.3.1)</li>
 </ol>
 
+<h2>Wireframe tool</h2>
+<p>For all wireframe work I have used
+<a href="https://balsamiq.com" target="_blank" rel="nofollow">Balsamiq.</a></p>
+
 <h2>Features</h2>
 <p>The website uses Bootstrap Javascript and Modal for registration and pop-up messages, to
 confirm for the client that they have registered.</p>

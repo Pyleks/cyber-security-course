@@ -758,7 +758,7 @@ FRONT END*/
     }
 }
 
-@media (min-width: 414px) and (max-width: 450px) {
+@media (min-width: 415px) and (max-width: 450px) {
     .text-center{
         position: relative;
         top: 0;

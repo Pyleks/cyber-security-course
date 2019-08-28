@@ -5,7 +5,7 @@
 .my-header .nav-item {
     color: white;
 }
-/*/Navigation bar Styling*/
+
 
 /*Hero-Callout
 THIS CODE IS COPIED DIRECTLY FROM ONE OF THE LECTURES IN INTERACTIVE
@@ -50,7 +50,7 @@ FRONT END*/
     font-size: 19px;
 
 }
-/*/Jumbotron-callout-group*/
+
 
 /*Hero-border-line*/
 .line-border-style {
@@ -62,7 +62,7 @@ FRONT END*/
     border-top: 10px solid rgba(0,0,0,0.1);
     margin: 0;
 }
-/*/Hero-border-line*/
+
 
 /*Application List*/
 .application-container {
@@ -91,7 +91,7 @@ FRONT END*/
 .meta-card-size {
     width: 19rem;
 }
-/*/Application List*/
+
 
 /*Global Card Styling*/
 .card-header-color {
@@ -111,7 +111,7 @@ FRONT END*/
 .customized-cards {
     border: 0;
 }
-/*/Global Card Styling*/
+
 
 /*Tools-box section style*/
 .tool-box-color {
@@ -130,9 +130,9 @@ FRONT END*/
     left: -10px;
     right: 0;
 }
-/*Tools-box section style*/
 
-/*Kali Linux Container*/
+
+/*cyber-careers-video*/
 .cyber-careers-video {
     padding-top: 30px;
 }
@@ -149,7 +149,7 @@ FRONT END*/
     text-align: center;
 
 }
-/*/Kali Linux Container*/
+
 
 /*Techniques Container*/
 .techniques-headline-color {
@@ -168,7 +168,7 @@ FRONT END*/
     left: -10px;
     right: 0;
 }
-/*/Techniques Container*/
+
 
 /*Sign-up Container*/
 .sign-up-container {
@@ -181,7 +181,8 @@ FRONT END*/
 .input-text {
     margin-left: 3px;
 }
-/*/Sign-up Container*/
+
+
 /*HR footer style*/
 .footer-style {
     margin: 0;
@@ -190,7 +191,7 @@ FRONT END*/
 .divider-color {
     background-color: #eee;
 }
-/*/HR footer style*/
+
 
 /*Contact-us*/
 .contact-us-container {
@@ -209,7 +210,6 @@ FRONT END*/
 .contact-margin {
     margin-bottom: 0.2rem;
 }
-
 .contact-icons {
     margin-bottom: 15px;
 }
@@ -226,7 +226,7 @@ FRONT END*/
 .hr-light {
     border-top: 1px solid #5d5c57;
 }
-/*/Footer Container*/
+
 
 /*Social Media Icons*/
 .social-media-custom {
@@ -238,7 +238,7 @@ FRONT END*/
     font-weight: 400;
     padding-left: 695px;
 }
-/*/Social Media Icons*/
+
 
 /*Media Styling*/
 @media (min-width: 300px) and (max-width: 320px) {
@@ -1322,7 +1322,7 @@ FRONT END*/
     /*    text-align: center;*/
     /*}*/
 }
-/*/Media Styling*/
+
 
 /*Modal Styling*/
     .modal-login-username {
@@ -1354,4 +1354,4 @@ FRONT END*/
     .modal-footer {
         border: 0;
     }
-/*/Modal Styling*/
+

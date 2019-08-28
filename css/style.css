@@ -1017,13 +1017,12 @@ FRONT END*/
 }
 
 @media (min-width: 700px) and (max-width: 768px) {
-    .text-center{
+    .jumbotron {
         position: relative;
         top: 0;
-        left: 270px;
+        left: 290px;
         right: 0;
     }
-
     .jumbotron-header {
         font-size: 60px;
         padding-left: 100px;
@@ -1095,13 +1094,6 @@ FRONT END*/
         max-width: 100%;
         flex: 0 0 100%;
     }
-    .footer-container h6 {
-        margin-right: 65%;
-        position: relative;
-        top: 0;
-        left: 215px;
-        right: 0;
-    }
     .email-input-container {
         margin-right: 50%;
         text-align: center;
@@ -1109,9 +1101,6 @@ FRONT END*/
         top: 0;
         left: 150px;
         right: 0;
-    }
-    .footer-container input {
-        width: -50% !important;
     }
     .input-container {
         width: 70%;
@@ -1124,19 +1113,15 @@ FRONT END*/
         font-weight: 400;
         padding-left: 275px;
     }
-    /*.social-media-container {*/
-    /*    text-align: center;*/
-    /*}*/
 }
 
 @media (min-width: 1020px) and (max-width: 1024px) {
-    .text-center{
+    .jumbotron {
         position: relative;
         top: 0;
-        left: 400px;
+        left: 420px;
         right: 0;
     }
-
     .jumbotron-header {
         font-size: 80px;
         padding-left: 100px;

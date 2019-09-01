@@ -6,6 +6,10 @@
     color: white;
 }
 
+/*Global colors*/
+.text-color {
+    color: #ffffff;
+}
 
 /*Hero-Callout
 THIS CODE IS COPIED DIRECTLY FROM ONE OF THE LECTURES IN INTERACTIVE
@@ -35,13 +39,13 @@ FRONT END*/
 }
 .jumbotron-header {
     color: rgb(255, 255, 233);
-    font-weight: bold;
+    font-weight: 600;
     font-size: 4.5rem;
 }
 .jumbotron-paragraph {
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
 
 
 }

@@ -40,7 +40,7 @@
                     <li class="nav-item">
                         <!--                    <a class="nav-link" href="#">Login | Sign Up</a>-->
                         <button type="button" class="btn btn-success" data-toggle="modal"
-                                data-target="#Modal-header-registration">Login
+                                data-target="#modal-header-login">Login
                         </button>
                     </li>
                 </ul>
@@ -67,7 +67,7 @@
                     <div class="col-12">
                         <button type="button" class="btn btn-success btn-lg mt-5 jumbotron-button"
                                 data-toggle="modal"
-                                data-target="#Modal-sign-up">Sign Up Today
+                                data-target="#modal-hero-sign-up">Sign Up Today
                         </button>
                 </p>
                 <div class="d-none d-sm-block">
@@ -377,7 +377,7 @@
             </div>
             <button type="button" class="btn btn-success"
                     data-toggle="modal"
-                    data-target="#Modal-Registration">Register
+                    data-target="#modal-site-registration">Register
             </button>
         </form>
 </section>
@@ -432,7 +432,7 @@
                             <input class="form-control" type="email" name="EMAIL" placeholder="Email address">
                             <div class="input-group-append">
                                 <button class="btn btn-success" type="submit" data-toggle="modal"
-                                        data-target="#Modal-newsletter-registration">Sign Up
+                                        data-target="#modal-footer-newsletter-registration">Sign Up
                                 </button>
                             </div>
                         </div>
@@ -473,14 +473,13 @@
 to work with my website-->
 
 <!-- Modal-site-Registration-feedback -->
-<section class="modal-site-registration">
-    <div class="modal fade" id="Modal-Registration" tabindex="-1" role="dialog"
-         aria-labelledby="Modal-Registration-lLabel"
+<section class="modal fade" id="modal-site-registration" tabindex="-1" role="dialog"
+         aria-labelledby="modal-site-environment-registration"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="Modal-Registration-lLabel">Registration Complete</h5>
+                    <h5 class="modal-title" id="modal-site-registration-complete">Registration Complete</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -499,14 +498,13 @@ to work with my website-->
 
 
 <!-- Modal newsletter registration -->
-<section class="modal-newsletter-registration">
-    <div class="modal fade" id="Modal-newsletter-registration" tabindex="-1" role="dialog"
-         aria-labelledby="Modal-Registration-Label-two"
+<section class="modal fade" id="modal-footer-newsletter-registration" tabindex="-1" role="dialog"
+         aria-labelledby="modal-footer-newsletter"
          aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="Modal-Registration-Label-two">Newsletter Registration Complete</h5>
+                    <h5 class="modal-title" id="modal-newsletter-registration-complete">Newsletter Registration Complete</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -525,77 +523,76 @@ to work with my website-->
 
 
 <!-- Modal Login -->
-<section class="modal-login">
-    <div class="modal fade" id="Modal-header-registration" tabindex="-1" role="dialog"
-         aria-labelledby="Modal-Registration-Label-three"
+<section class="modal fade" id="modal-header-login" tabindex="-1" role="dialog"
+         aria-labelledby="navigation-bar-login-form"
          aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="Modal-Registration-Label-three">Login</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-login">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="md-form mb-5">
+                    <p class="modal-login-username">Username</p>
+                    <input type="text" id="form-login-username" class="form-control validate"
+                           placeholder="Username">
                     <div class="md-form mb-5">
-                        <p class="modal-login-username">Username</p>
-                        <input type="text" id="orangeForm-name" class="form-control validate" placeholder="Username">
-                        <div class="md-form mb-5">
-                            <p class="modal-login-password">Password</p>
-                            <input type="password" id="orangeForm-name" class="form-control validate"
-                                   placeholder="Password">
+                        <p class="modal-login-password">Password</p>
+                        <input type="password" id="form-login-password" class="form-control validate"
+                               placeholder="Password">
 
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-success" data-dismiss="modal">Login</button>
-                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Login</button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 <!-- /Modal Login -->
 
 
 <!-- Modal Sign-Up -->
-<section class="modal-sign-up">
-    <div class="modal fade" id="Modal-sign-up" tabindex="-1" role="dialog"
-         aria-labelledby="Modal-Registration-Label-four"
+<section class="modal fade" id="modal-hero-sign-up" tabindex="-1" role="dialog"
+         aria-labelledby="hero-sign-up-form"
          aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="Modal-Registration-Label-four">Registration</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-registration-header">Registration</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="md-form mb-5">
+                    <p class="modal-create-username">Create Username</p>
+                    <input type="text" id="form-signup-username" class="form-control validate" placeholder="Username">
                     <div class="md-form mb-5">
-                        <p class="modal-create-username">Create Username</p>
-                        <input type="text" id="orangeForm-name" class="form-control validate" placeholder="Username">
+
+                        <p class="modal-fill-name">Fullname</p>
+                        <input type="password" id="form-signup-fullname" class="form-control validate required"
+                               placeholder="Fullname">
+
                         <div class="md-form mb-5">
+                            <p class="modal-create-password">Password</p>
+                            <input type="password" id="form-create-password" class="form-control validate"
+                                   placeholder="Password">
 
-                            <p class="modal-fill-name">Fullname</p>
-                            <input type="password" id="orangeForm-name" class="form-control validate required"
-                                   placeholder="Fullname">
-
-                            <div class="md-form mb-5">
-                                <p class="modal-create-password">Password</p>
-                                <input type="password" id="orangeForm-name" class="form-control validate"
-                                       placeholder="Password">
-
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-success" data-dismiss="modal">Register</button>
-                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Register</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 </section>
 <!-- /Modal Sign-Up -->
 

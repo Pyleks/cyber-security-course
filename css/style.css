@@ -2,14 +2,7 @@
 .my-header .my-navbar {
     background: black!important;
 }
-.my-header .nav-item {
-    color: white;
-}
 
-/*Global colors*/
-.text-color {
-    color: #ffffff;
-}
 
 /*Hero-Callout
 THIS CODE IS COPIED DIRECTLY FROM ONE OF THE LECTURES IN INTERACTIVE
@@ -39,19 +32,18 @@ FRONT END*/
 }
 .jumbotron-header {
     color: rgb(255, 255, 233);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 4.5rem;
 }
 .jumbotron-paragraph {
-    color: white;
     font-size: 20px;
     font-weight: 500;
 
 
 }
 .jumbotron-start-statement {
-    color: white;
     font-size: 19px;
+    margin-top: 20px;
 
 }
 
@@ -105,7 +97,6 @@ FRONT END*/
     font-weight: 900;
 }
 .card-color {
-    background-color:white;
     color: black;
 }
 .card-text-color {
@@ -118,9 +109,6 @@ FRONT END*/
 
 
 /*Tools-box section style*/
-.tool-box-color {
-    color: white;
-}
 .toolbox-container {
     background-color: #044517 !important;
     padding-bottom: 70px;
@@ -156,9 +144,6 @@ FRONT END*/
 
 
 /*Techniques Container*/
-.techniques-headline-color {
-    color: white;
-}
 .techniques-container {
     background-color: #044517;
     padding-bottom: 70px;
@@ -224,7 +209,6 @@ FRONT END*/
     background-color: #21262a;
     padding-top: 50px;
     padding-bottom: 30px;
-    color: white;
     font-size: 1.1em;
 }
 .hr-light {
@@ -234,7 +218,6 @@ FRONT END*/
 
 /*Social Media Icons*/
 .social-media-custom {
-    color: white !important;
     margin-right: 5px;
     padding-top: 10px;
 }

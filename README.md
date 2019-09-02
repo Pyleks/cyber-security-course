@@ -20,7 +20,10 @@ as well limiting the word count to keep the topic relevant and interesting.</p>
 <ol>
 <li>HTML</li>
 <li>CSS</li>
-<li>Bootstrap (4.3.1)</li>
+<li>Bootstrap</li>
+<li>FontAwesome</li>
+<li>jQuery</li>
+<li>PopperJS</li>
 </ol>
 
 <h2>Wireframe tool</h2>
@@ -74,16 +77,12 @@ And modified heavily using tools provided from the Shutterstock website, making 
 <h4>Bash (Bourne-Again Shell)</h4>
 <p>Bash logo have been downloaded from
 <a href="https://bashlogo.com/" rel="nofollow">Bash Logo Media Assets</a>.
-Project One was tasked with designing a new logo for Bash.
-Visit their website and see what they do
-<a href="https://prospectone.io//" target="_blank" rel="nofollow">Project One</a>.
-</p>
+
 
 <h4>Python</h4>
 <p>Python logo have been downloaded from
 <a href="https://www.python.org/community/logos/" target="_blank" rel="nofollow">Python Logo</a>.
-The use of Python Logos are encourage to spread visibility for the language as a whole
-to indicate sustainability.</p>
+</p>
 
 <h4>Metasploit</h4>
 <p>Metasploit logo have been downloaded from
@@ -99,11 +98,5 @@ Free transparent picture from pngkey with set resolution on 460x400.</p>
 <p> - Redesign of registration and adding a contact me form also suggested by Mentor (Aaron Sinnott). </p>
 <p> - Adding each section to navbar also suggested by Mentor (Aaron Sinnott).</p>
 
-<h3>Icons</h3>
-<p>All icons on the website have been aquired through
-<a href="https://fontawesome.com/" target="_blank" rel="nofollow">Font Awesome</a>.</p>
 
-<h3>Registration forms and Feedback</h3>
-<p>All registration feedback is using
-<a href="https://getbootstrap.com/docs/4.3/components/modal/" target="_blank" rel="nofollow">Bootstrap Modal</a>.</p>
 

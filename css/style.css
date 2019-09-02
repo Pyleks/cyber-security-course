@@ -129,10 +129,9 @@ FRONT END*/
     padding-top: 30px;
 }
 .cyber-careers-headline {
-    color: black !important;
+    color: #000000 !important;
     margin-bottom: 30px;
-    padding-left: 1px;
-    padding-right: 320px;
+    text-align: left;
 }
 .cyber-careers-video-container {
     padding-bottom: 50px;
@@ -140,6 +139,9 @@ FRONT END*/
 .content-placement {
     text-align: center;
 
+}
+.iframe {
+    border: 0;
 }
 
 

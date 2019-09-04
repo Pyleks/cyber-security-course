@@ -243,17 +243,6 @@ FRONT END*/
         left: 0;
         right: 20px;
     }
-    .meta-picture-placement {
-        width: 70%;
-        height: 70%;
-        position: relative;
-        top: 0;
-        left: 37px;
-        right: 0;
-}
-    .meta-card-size {
-        width: 15rem;
-    }
     .cyber-careers-headline {
         padding-right: 0;
         text-align: left;
@@ -325,14 +314,6 @@ FRONT END*/
         right: 0;
         font-size: 0.9rem;
     }
-    .meta-picture-placement {
-        width: 70%;
-        height: 70%;
-        position: relative;
-        top: 0;
-        left: 45px;
-        right: 0;
-    }
     .cyber-careers-headline {
         padding-right: 0;
         text-align: left;
@@ -402,14 +383,6 @@ FRONT END*/
         left: 50px;
         right: 0;
         font-size: 0.9rem;
-    }
-    .meta-picture-placement {
-        width: 70%;
-        height: 70%;
-        position: relative;
-        top: 0;
-        left: 47px;
-        right: 0;
     }
     .cyber-careers-headline {
         padding-right: 0;
@@ -491,14 +464,6 @@ FRONT END*/
         right: 0;
         font-size: 0.9rem;
     }
-    .meta-picture-placement {
-        width: 70%;
-        height: 70%;
-        position: relative;
-        top: 0;
-        left: 47px;
-        right: 0;
-    }
     .cyber-careers-headline {
         padding-right: 0;
         text-align: left;
@@ -574,14 +539,6 @@ FRONT END*/
         right: 0;
         font-size: 1.1rem;
     }
-    .meta-picture-placement {
-        width: 75%;
-        height: 75%;
-        position: relative;
-        top: 0;
-        left: 57px;
-        right: 0;
-    }
     .cyber-careers-headline {
         padding-right: 0;
         text-align: left;
@@ -656,14 +613,6 @@ FRONT END*/
         left: 50px;
         right: 0;
         font-size: 1.1rem;
-    }
-    .meta-picture-placement {
-        width: 75%;
-        height: 75%;
-        position: relative;
-        top: 0;
-        left: 57px;
-        right: 0;
     }
     .cyber-careers-headline {
         padding-right: 0;
@@ -741,14 +690,6 @@ FRONT END*/
         right: 0;
         font-size: 1.1rem;
     }
-    .meta-picture-placement {
-        width: 75%;
-        height: 75%;
-        position: relative;
-        top: 0;
-        left: 57px;
-        right: 0;
-    }
     .cyber-careers-headline {
         padding-right: 0;
         text-align: left;
@@ -803,7 +744,6 @@ FRONT END*/
         left: 10px;
         right: 0;
     }
-
     .jumbotron-header {
         font-size: 45px;
         padding-left: 100px;
@@ -826,14 +766,6 @@ FRONT END*/
         left: 50px;
         right: 0;
         font-size: 1.1rem;
-    }
-    .meta-picture-placement {
-        width: 75%;
-        height: 75%;
-        position: relative;
-        top: 0;
-        left: 57px;
-        right: 0;
     }
     .cyber-careers-headline {
         padding-right: 0;
@@ -911,14 +843,6 @@ FRONT END*/
         left: 50px;
         right: 0;
         font-size: 1.1rem;
-    }
-    .meta-picture-placement {
-        width: 75%;
-        height: 75%;
-        position: relative;
-        top: 0;
-        left: 57px;
-        right: 0;
     }
     .cyber-careers-headline {
         padding-right: 0;
@@ -1002,14 +926,6 @@ FRONT END*/
         left: 50px;
         right: 0;
     }
-    .meta-picture-placement {
-    width: 75%;
-    height: 75%;
-    position: relative;
-    top: 3px;
-    left: 0;
-    right: 0;
-}
     .cyber-careers-headline {
         padding-right: 0;
         text-align: left;
@@ -1099,14 +1015,6 @@ FRONT END*/
         position: relative;
         top: -20px;
         left: 50px;
-        right: 0;
-    }
-    .meta-picture-placement {
-        width: 85%;
-        height: 85%;
-        position: relative;
-        top: 3px;
-        left: -150px;
         right: 0;
     }
     .cyber-careers-headline {

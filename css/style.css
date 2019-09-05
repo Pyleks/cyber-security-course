@@ -184,7 +184,6 @@ FRONT END*/
 
 /*Footer Container*/
 .footer-container {
-    width: 100%;
     background-color: #21262a;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -264,12 +263,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
-
-
-
-
-
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
@@ -317,9 +310,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
-
-
 }
 
 @media (min-width: 361px) and (max-width: 375px) {
@@ -378,11 +368,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
-
-
-
-
 }
 
 @media (min-width: 376px) and (max-width: 400px) {
@@ -441,9 +426,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
-
-
 }
 
 @media (min-width: 401px) and (max-width: 411px) {
@@ -497,7 +479,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
 }
 
 @media (min-width: 412px) and (max-width: 414px) {
@@ -552,7 +533,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
 }
 
 @media (min-width: 415px) and (max-width: 450px) {
@@ -606,7 +586,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
 }
 
 
@@ -661,7 +640,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
 }
 
 @media (min-width: 601px) and (max-width: 699px) {
@@ -716,7 +694,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
 }
 
 @media (min-width: 700px) and (max-width: 768px) {
@@ -776,24 +753,6 @@ FRONT END*/
         width: 100%;
         height: 100%;
     }
-
-
-    .email-input-container {
-        margin-right: 50%;
-        text-align: center;
-        position: relative;
-        top: 0;
-        left: 150px;
-        right: 0;
-    }
-    .input-container {
-        width: 70%;
-        position: relative;
-        top: 0;
-        left: 100px;
-        right: 0;
-    }
-
 }
 
 @media (min-width: 1020px) and (max-width: 1024px) {
@@ -861,18 +820,8 @@ FRONT END*/
         left: 190px;
         right: 0;
     }
-    .input-container {
-        width: 70%;
-        position: relative;
-        top: 0;
-        left: 125px;
-        right: 0;
-    }
-
-    /*.social-media-container {*/
-    /*    text-align: center;*/
-    /*}*/
 }
+
 
 @media (min-width: 1px) and (max-width: 1200px) {
     .copyright-container {

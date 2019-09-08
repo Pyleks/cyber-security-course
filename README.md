@@ -72,6 +72,13 @@ between sizes, using respnsive mode in developer tools, but works on the set siz
 
 
 <h2>Deployment</h2>
+<p>This website is live from GitHub, deployed directly from master branch, the website is updated automatically
+when committing to the master branch. To deploy the website correctly on GitHub, the landing page
+must be named index.html</p>
+
+<p>To run this locally, you can clone this repository by pasting git clone
+https://github.com/pyleks/cyber-security-course.git into your terminal.
+To remove connection to this GitHub repository, just type git remote rm origin in your terminal</p>
 
 <h2>Credits</h2>
 <h3>Content</h3>

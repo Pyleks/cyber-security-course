@@ -50,6 +50,7 @@ correct on (Chrome, Firefox, Edge). </p>
 <li>All buttons on the page brings up modal window as designed.</li>
 <li>There is no required class implemented on the modal forms, so they work regardless of the information.</li>
 <li>Footer icons link correctly and safely.</li>
+<li>Fixed all bugs through W3 Validator for index.html and style.css</li>
 </ol>
 
 

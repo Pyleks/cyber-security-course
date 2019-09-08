@@ -42,8 +42,18 @@ some light Javascripting.<p>
 <h2>Testing</h2>
 <h3>Responsive Design</h3>
 <p>The website have been tested on all popular browsers to confirm all information is displayed
-correct on (Chrome, Firefox, Edge).</p>
-<p>Confirmed it is working with all popular device sizes. </p>
+correct on (Chrome, Firefox, Edge). </p>
+
+<p>The following have been tested.</p>
+<ol>
+<li>Navbar buttons on full screen and on mobile device sizes.</li>
+<li>All buttons on the page brings up modal window as designed.</li>
+<li>There is no required class implemented on the modal forms, so they work regardless of the information.</li>
+<li>Footer icons link correctly and safely.</li>
+</ol>
+
+
+<p>Confirmed it is working with all popular device sizes.</p>
 <ol>
 <li>320 x 568 iPhone 5/SE</li>
 <li>360 x 640 Galaxy S5</li>
@@ -56,10 +66,10 @@ correct on (Chrome, Firefox, Edge).</p>
 <li>1024 x 1366 iPad Pro</li>
 </ol>
 
-<h3>Responsive scaling issues</h3>
-<p>While the design works correct on all sizes mentioned above, it breaks when scaling manually between sizes, using respnsive mode
-in developer tools, especially the hero image and the images below.
-iphone 6/7/8 Plus have a white line on the right side of the screen in chrome responsive scaling, but not in Firefox.
+<h3>Responsive scaling issues with headline</h3>
+<p>While the design works correct on all sizes mentioned above, except the Hero headline text, it breaks when scaling manually
+between sizes, using respnsive mode in developer tools, but works on the set sizes.
+
 
 <h2>Deployment</h2>
 

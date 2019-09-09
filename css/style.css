@@ -3,7 +3,6 @@
     background: black!important;
 }
 
-
 /*Hero-Callout
 THIS CODE IS COPIED DIRECTLY FROM ONE OF THE LECTURES IN INTERACTIVE
 FRONT END*/
@@ -26,37 +25,34 @@ FRONT END*/
 
 }
 
-/*Jumbotron-callout-group*/
-.jumbotron {
+/*Hero-callout-group*/
+.hero-card {
+    border: 0;
     background-color: transparent;
 }
-.jumbotron-header {
-    color: rgb(255, 255, 233);
-    font-weight: 700;
-    font-size: 4.5rem;
+.hero-title-box {
+    background-color: transparent;
+
 }
-.jumbotron-paragraph {
-    font-size: 20px;
+.hero-text-size {
+    font-size: 6rem;
     font-weight: 500;
-
-
 }
-.jumbotron-start-statement {
-    font-size: 19px;
-    margin-top: 20px;
-
+.hero-card-paragraph {
+    font-size: 1.6rem;
+}
+.customized-hero-text {
+    position: relative ;
+    top: 0;
+    left: -700px;
+    right: 200px;
 }
 
 
 /*Hero-border-line*/
 .line-border-style {
-    position: relative;
-    top: 0;
-    left: 35px;
-    right:0;
-    padding-left: 100px;
     border-top: 10px solid rgba(0,0,0,0.1);
-    margin: 0;
+
 }
 
 
@@ -206,611 +202,101 @@ FRONT END*/
 
 
 /*Media Styling*/
-@media (min-width: 300px) and (max-width: 320px) {
-    .media-display {
-        display: contents;
+@media (max-width: 1200px) {
+    .hero-text-size {
+        font-size: 5rem;
     }
-    .jumbotron {
-        margin-top: 30%;
+    .hero-card-paragraph {
+        font-size: 1.4rem;
     }
-    .jumbotron-header {
-        font-size: 30px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
+    .customized-hero-text {
+        text-align: center;
+        position: relative ;
         top: 0;
-        left: 110px;
-        right: 0;
-        padding-left: 70px;
+        left: 0px;
+        right: 0px;
     }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 0.9rem;
+    .line-border-style {
+        text-align: center;
     }
-    .customized-cards {
-        position: relative;
+
+}
+@media (max-width: 992px){
+    .hero-text-size {
+        font-size: 4rem;
+
+    }
+    .hero-card-paragraph {
+        font-size: 1.3rem;
+    }
+    .customized-hero-text {
+        text-align: center;
+        position: relative ;
         top: 0;
-        left: 0;
-        right: 20px;
+        left: 0px;
+        right: 0px;
     }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .line-border-style {
+        text-align: center;
     }
 }
-
-@media (min-width: 321px) and (max-width: 360px) {
-    .jumbotron-header {
-        font-size: 30px;
-        padding-left: 100px;
+@media (max-width: 768px) {
+    .hero-text-size {
+        font-size: 3.5rem;
     }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
+    .hero-card-paragraph {
+        font-size: 1.2rem;
     }
-    .jumbotron-line-style {
-        position: relative;
+    .customized-hero-text {
+        text-align: center;
+        position: relative ;
         top: 0;
-        left: 122px;
-        right: 0;
-        padding-left: 50px;
+        left: 0px;
+        right: 0px;
     }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 0.9rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .line-border-style {
+        text-align: center;
     }
 }
-
-@media (min-width: 361px) and (max-width: 375px) {
-    .media-display {
-        display: contents;
+@media (max-width: 576px){
+    .hero-text-size {
+        font-size: 2.6rem;
     }
-    .jumbotron {
-        padding-left: 0;
-        margin-right: 5%;
-        position: relative;
+    .customized-hero-text {
+        text-align: center;
+        position: relative ;
         top: 0;
-        left: 10px;
-        right: 0;
+        left: 0px;
+        right: 0px;
     }
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
+    .line-border-style {
+        text-align: center; !important;
     }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 125px;
-        right: 0;
-        padding-left: 80px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 0.9rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .hero-card {
+        width: 80% !important;
     }
 }
-
-@media (min-width: 376px) and (max-width: 400px) {
-    .media-display {
-        display: contents;
+@media (max-width: 350px){
+    .hero-text-size {
+        font-size: 2rem;
     }
-    .jumbotron {
-        padding-left: 0;
-        margin-right: 5%;
-        position: relative;
+    .customized-hero-text {
+        text-align: center;
+        position: relative ;
         top: 0;
-        left: 10px;
-        right: 0;
+        left: 0px;
+        right: 0px;
     }
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
+    .line-border-style {
+        text-align: center; !important;
     }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 125px;
-        right: 0;
-        padding-left: 80px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 0.9rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (min-width: 401px) and (max-width: 411px) {
-    .media-display{
-        position: relative;
-        top: 0;
-        left: 10px;
-        right: 0;
-    }
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 134px;
-        right: 0;
-        padding-left: 65px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (min-width: 412px) and (max-width: 414px) {
-    .media-display {
-        position: relative;
-        top: 0;
-        left: 10px;
-        right: 0;
-    }
-
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 135px;
-        right: 0;
-        padding-left: 65px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (min-width: 415px) and (max-width: 450px) {
-    .media-display {
-        position: relative;
-        top: 0;
-        left: 10px;
-        right: 0;
-    }
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 135px;
-        right: 0;
-        padding-left: 65px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+    .hero-card {
+        width: 80% !important;
     }
 }
 
 
-@media (min-width: 500px) and (max-width: 600px) {
-    .media-display{
-        position: relative;
-        top: 0;
-        left: 10px;
-        right: 0;
-    }
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 170px;
-        right: 0;
-        padding-left: 65px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
 
-@media (min-width: 601px) and (max-width: 699px) {
-    .media-display{
-        position: relative;
-        top: 0;
-        left: 10px;
-        right: 0;
-    }
-
-    .jumbotron-header {
-        font-size: 45px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 20px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 170px;
-        right: 0;
-        padding-left: 65px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 768px) {
-    .jumbotron {
-        position: relative;
-        top: 0;
-        left: 290px;
-        right: 0;
-    }
-    .jumbotron-header {
-        font-size: 60px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 30px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 110px;
-        right: 0;
-        padding-left: 140px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .jumbotron-start-statement {
-        position: relative;
-        top: -20px;
-        left: 50px;
-        right: 0;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media (min-width: 1020px) and (max-width: 1024px) {
-    .jumbotron {
-        text-align: right;
-    }
-    .jumbotron-header {
-        font-size: 80px;
-        padding-left: 100px;
-    }
-    .jumbotron-paragraph {
-        font-size: 35px;
-        padding-left: 100px;
-        width: 100%;
-    }
-    .jumbotron-line-style {
-        position: relative;
-        top: 0;
-        left: 150px;
-        right: 0;
-        padding-left: 160px;
-    }
-    .jumbotron-button {
-        position: relative;
-        top: -40px;
-        left: 50px;
-        right: 0;
-        font-size: 1.1rem;
-    }
-    .jumbotron-start-statement {
-        position: relative;
-        top: -20px;
-        left: 50px;
-        right: 0;
-    }
-    .cyber-careers-headline {
-        padding-right: 0;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    .card-header-color {
-        font-weight: 600;
-    }
-    .video-sizing {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        height: 0;
-    }
-    .video-sizing iframe {
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-}
 
 /*Media query affecting all screen sizes.*/
 @media (min-width: 1px) and (max-width: 1200px) {

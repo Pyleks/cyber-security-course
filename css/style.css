@@ -273,10 +273,10 @@ FRONT END*/
         text-align: center; !important;
     }
     .hero-card {
-        width: 80% !important;
+        width: 77% !important;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 360px){
     .hero-text-size {
         font-size: 2rem;
     }
@@ -291,7 +291,7 @@ FRONT END*/
         text-align: center; !important;
     }
     .hero-card {
-        width: 80% !important;
+        width: 75% !important;
     }
 }
 

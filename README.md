@@ -43,7 +43,7 @@ some light Javascript.
 The website have been tested on all popular browsers to confirm all information is displayed
 correct on (Chrome, Firefox, Edge).
 
-##### The following have been tested.
+**The following have been tested.**
 
 1. Navbar buttons on full screen and on mobile device sizes.
 1. All buttons on the page brings up modal window as designed.
@@ -53,7 +53,7 @@ correct on (Chrome, Firefox, Edge).
 
 
 
-##### Confirmed it is working with all popular device sizes.
+**Confirmed it is working with all popular device sizes.**
 
 1. 320 x 568 iPhone 5/SE
 1. 360 x 640 Galaxy S5

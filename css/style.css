@@ -25,6 +25,11 @@ FRONT END*/
 
 }
 
+/*Smooth scrolling CSS*/
+html {
+    scroll-behavior: smooth;
+}
+
 /*Hero-callout-group*/
 .hero-card {
     border: 0;
@@ -52,8 +57,7 @@ FRONT END*/
 /*Hero-border-line*/
 .line-border-style {
     border-top: 10px solid rgba(0,0,0,0.1);
-
-}
+    }
 
 
 /*Application List*/
@@ -270,10 +274,10 @@ FRONT END*/
         right: 0px;
     }
     .line-border-style {
-        text-align: center; !important;
+        text-align: center;
     }
     .hero-card {
-        width: 77% !important;
+        width: 60%
     }
 }
 @media (max-width: 360px){
@@ -288,7 +292,7 @@ FRONT END*/
         right: 0px;
     }
     .line-border-style {
-        text-align: center; !important;
+        text-align: center;
     }
     .hero-card {
         width: 75% !important;

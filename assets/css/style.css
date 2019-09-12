@@ -1,6 +1,6 @@
 /*Navigation bar Styling*/
 .my-header .my-navbar {
-    background: black!important;
+    background: #000000 !important;
 }
 
 /*Hero-Callout
@@ -69,15 +69,15 @@ html {
 /*Global Card Styling*/
 .card-header-color {
     background-color:#bee1b4;
-    color: black;
+    color: #000000;
     font-size: 1.7em;
     font-weight: 900;
 }
 .card-color {
-    color: black;
+    color: #000000;
 }
 .card-text-color {
-    color: black;
+    color: #000000;
     margin-bottom: 0;
 }
 .customized-cards {

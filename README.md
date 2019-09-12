@@ -76,12 +76,12 @@ correct on (Chrome, Firefox, Edge).
 1. There is no required class implemented on the modal forms, so they work regardless of the information.
 1. Footer icons link correctly and safely.
 1. Fixed all bugs through W3 Validator for index.html and style.css.
+1. 320 x 568 iPhone 5/SE has issues with hero text and button.
 
 
+**Confirmed it is working with all popular device sizes below.**
 
-**Confirmed it is working with all popular device sizes.**
 
-1. 320 x 568 iPhone 5/SE
 1. 360 x 640 Galaxy S5
 1. 375 x 667 iPhone 6/7/8
 1. 375 x 812 iPhone X
@@ -142,6 +142,3 @@ Free transparent picture from pngkey with set resolution on 460x400.</p>
 * Idea of using video was suggested by Mentor (Aaron Sinnott) but not the choice of video.
 * Redesign of registration and adding a contact me form also suggested by Mentor (Aaron Sinnott).
 * Adding each section to navbar also suggested by Mentor (Aaron Sinnott).
-
-
-

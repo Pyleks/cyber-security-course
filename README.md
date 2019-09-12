@@ -32,6 +32,8 @@ as well limiting the word count to keep the topic relevant and interesting.
 1. jQuery
 1. PopperJS
 
+## Demo
+The website can be viewed here: https://pyleks.github.io/cyber-security-course/
 
 ## Wireframe tool
 For all wireframe work I have used
@@ -46,12 +48,28 @@ Planning on adding a test hacking section to the website, where people can try t
 to see if they enjoy the hacking process, before landing on a registration page, this will require
 some light Javascript.
 
+## Features not added
+The input fields will work regardless if there is information or not.
+This is due to "required" has not been added on the input forms.
+
+## User Stories
+> A company have just received a quote on having the network scanned, but want to see if it can be done in-house.
+
+> A cyber security enthusiast want to up-skill his/her knowledge.
+
+> A manager is looking for a cyber security course with good overview to bring to the meeting to convince the rest
+that this is something to invest in.
+
+> A company just experienced to be hacked and realized they need to up-skill their employees now.
+
+> A network professional want to contact the company directly before making a decision.
+
 ## Testing
 ### Responsive Design
 The website have been tested on all popular browsers to confirm all information is displayed
 correct on (Chrome, Firefox, Edge).
 
-**The following have been tested.**
+**The following features have been tested.**
 
 1. Navbar buttons on full screen and on mobile device sizes.
 1. All buttons on the page brings up modal window as designed.

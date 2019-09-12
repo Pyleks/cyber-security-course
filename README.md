@@ -7,9 +7,17 @@ This is a Cyber security course website, exposing the visitors to a total of 8 t
 to get them interested, but not intimidated or overwhelmed.
 
 ## UX
-Centralize all relevant information for the visitors and make navigation easy, so they can get a quick
-overview, drawing their attention until they get the option to register while being interested
-in the course.
+The website is designed to give the user access to relevant information on a single scrolling page,
+as well guide them through the steps of cyber security to give them a stronger image of what the course
+have to offer.
+
+The visitors are provided multiple ways of contacting the company from physical address to phone and email.
+as well the opportunity to sign up for a weekly newsletter in case they are not ready to make the final step
+of signing up.
+I allow the user to sign up at the top as well the bottom of the page.
+
+Through the page I also included a video showcasing what type of opportunities are available within cyber security
+space.
 
 Strong colors have been choosen to clearly separate the topics as they scroll through the website
 as well limiting the word count to keep the topic relevant and interesting.

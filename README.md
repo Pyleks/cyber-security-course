@@ -50,7 +50,8 @@ some light Javascript.
 
 ## Features not added
 The input fields will work regardless if there is information or not.
-This is due to "required" has not been added on the input forms.
+This is due to "required" has not been added on the input forms due to not finding out how to do it
+before modal get initiated.
 
 ## User Stories
 > A company have just received a quote on having the network scanned, but want to see if it can be done in-house.
@@ -95,6 +96,8 @@ correct on (Chrome, Firefox, Edge).
 ### Responsive scaling issues with headline
 While the design works correct on all sizes mentioned above, except the Hero headline text, it breaks when scaling manually
 between sizes, using responsive mode in developer tools, but works on the set sizes.
+Ended up removing all media queries and about 700 lines of code, replaced with bootstrap to make it more
+intuitive, however the nature of the hero text require replacement, and that caused major problems.
 
 
 ## Deployment

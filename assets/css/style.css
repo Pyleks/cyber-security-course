@@ -46,12 +46,6 @@ html {
 .hero-card-paragraph {
     font-size: 1.6rem;
 }
-.customized-hero-text {
-    position: relative ;
-    top: 0;
-    left: -700px;
-    right: 200px;
-}
 
 
 /*Hero-border-line*/
@@ -215,13 +209,14 @@ html {
     }
     .customized-hero-text {
         text-align: center;
-        position: relative ;
-        top: 0;
-        left: 0px;
-        right: 0px;
+
     }
     .line-border-style {
         text-align: center;
+    }
+
+    .hero-card {
+        margin: 0 0 0 50%;
     }
 
 }
@@ -235,10 +230,7 @@ html {
     }
     .customized-hero-text {
         text-align: center;
-        position: relative ;
-        top: 0;
-        left: 0px;
-        right: 0px;
+
     }
     .line-border-style {
         text-align: center;
@@ -251,52 +243,45 @@ html {
     .hero-card-paragraph {
         font-size: 1.2rem;
     }
-    .customized-hero-text {
-        text-align: center;
-        position: relative ;
-        top: 0;
-        left: 0px;
-        right: 0px;
-    }
+
     .line-border-style {
         text-align: center;
     }
+
+    .hero-card {
+        margin: 0 0 0 50%;
+    }
+
 }
 @media (max-width: 576px) {
     .hero-text-size {
         font-size: 2.6rem;
     }
-    .customized-hero-text {
-        text-align: center;
-        position: relative ;
-        top: 0;
-        left: 0px;
-        right: 0px;
-    }
+
     .line-border-style {
         text-align: center;
     }
     .hero-card {
-        width: 60%
+        margin: 0 0 0 20%;
     }
 }
 @media (max-width: 360px) {
     .hero-text-size {
         font-size: 2rem;
     }
-    .customized-hero-text {
-        text-align: center;
-        position: relative ;
-        top: 0;
-        left: 0px;
-        right: 0px;
-    }
+
     .line-border-style {
         text-align: center;
     }
     .hero-card {
-        width: 75% !important;
+        margin: 0 0 0 20%;
     }
+
+    .button-size {
+        font-size: 1em;
+        padding: 0.4em 0.4em 0.4em 0.4em;
+    }
+
 }
 
 
